@@ -1,0 +1,43 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 17px;
+  border-bottom: 1px solid silver;
+}
+.menu{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.menu li{
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: .5s ease;
+}
+
+.menu li:hover{
+  color: #549DB9;
+}
+
+.sign{
+  display: flex;
+}
+.sign a i{
+  color: #549DB9;
+  font-weight: 600;
+  font-size: 22px;
+
+}
+.sign a{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition: 0.5s ease;
+}
+.sign a:hover{
+  color: #549DB9;
+}
