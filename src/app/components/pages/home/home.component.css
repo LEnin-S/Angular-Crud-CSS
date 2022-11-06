@@ -40,3 +40,40 @@ th,td{
 tr:nth-child(odd){
   background-color: #eeeeee;
 }
+.delete{
+  cursor: progress;
+  background-color: #D2001A;
+  border-radius: 2px solid;
+  outline: none;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+  /* cursor: pointer; */
+  color: #fff;
+  /* cursor: not-allowed; */
+  cursor: pointer;
+  width: 70px;
+  border: none;
+
+}
+button:nth-child(1){
+  background-color: #3D8361;
+  border-radius: 2px solid;
+  outline: none;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+  /* cursor: pointer; */
+  color: #fff;
+  /* cursor: not-allowed; */
+  cursor: pointer;
+  width: 70px;
+  border: none;
+}
+button:nth-child(1):hover{
+  border: #3D8361;
+  cursor: pointer;
+
+
+}
+
