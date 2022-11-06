@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { profile } from '../data/profile';
 
 @Injectable({
   providedIn: 'root'
@@ -14,5 +15,8 @@ export class ServiceService {
     return this.http.post(this.baseurl,data)
   }
 
+  showprofile(){
+    return this.http.get<profile[]>(this.baseurl)
+  }
 
 }
